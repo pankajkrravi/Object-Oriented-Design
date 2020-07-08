@@ -1,0 +1,36 @@
+import java.util.Date;
+import java.util.List;
+
+public class CustomerTransaction implements Accounting, Reporting {
+	
+	 private List<Product> products;
+	 private Customer customer;
+	 public CustomerTransaction(Customer customer) {
+	     	
+	 }
+	@Override
+	public String getName() {
+		return "Pankaj";
+	}
+
+	@Override
+	public Date getDate() {
+		return new Date();
+	}
+
+	@Override
+	public String productBreakDown() {
+		return "List of products for reporting";
+	}
+
+	@Override
+	public void prepateInvoice() {
+		System.out.println("invoice prepared ....");
+	}
+
+	@Override
+	public void chargeCustomer()
+	{
+		System.out.println("Charged the Customer ...");
+	}
+}

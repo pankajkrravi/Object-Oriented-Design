@@ -1,0 +1,7 @@
+
+public class DeviceeFactory {
+	public static void main(String[] args) {
+		
+	}
+
+}

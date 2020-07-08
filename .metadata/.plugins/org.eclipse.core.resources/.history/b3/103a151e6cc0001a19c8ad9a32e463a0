@@ -1,0 +1,11 @@
+
+public class Zoo {
+     public static void main(String[] args) {
+		Animal animal1=new Animal();
+		Animal animal2=new Animal();
+		Animal animal3=new Animal();
+		Animal animal4=new Animal();
+		Animal animal5=new Animal();
+		
+	}
+}

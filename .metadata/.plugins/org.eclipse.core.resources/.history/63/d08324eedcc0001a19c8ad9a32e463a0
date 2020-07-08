@@ -1,0 +1,18 @@
+package com.goomo.Employee.reporting;
+
+public class ReportFormatter {
+	public ReportFormatter() {
+		// TODO Auto-generated constructor stub
+	}
+  
+	private String convertObjectToXML(Object object)
+	{
+		return "XML : <title>"+object.toString()+"</title>";
+	}
+	
+	private String convertObjectToCSV(Object object)
+	{
+		return "CSV :,,,  "+object.toString()+" ,,,";
+	}
+	 
+}

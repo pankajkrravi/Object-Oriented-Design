@@ -1,0 +1,11 @@
+
+public abstract class GeneralManufacturingProcess {
+	protected abstract void assembleDevice();
+
+	protected abstract void testDevice();
+
+	protected abstract void packagDevice();
+
+	protected abstract void storeDevice();
+
+}

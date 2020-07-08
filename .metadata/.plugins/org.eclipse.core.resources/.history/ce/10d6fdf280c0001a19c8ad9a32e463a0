@@ -1,0 +1,11 @@
+package com.goomo.Employee.DAO;
+
+import com.goomo.Employee.POJO.Employee;
+
+public class EmployeeDAO { //used for data storage i.e CRUD operation
+
+	public void saveEmployee(Employee employee)
+	{
+		
+	}
+}

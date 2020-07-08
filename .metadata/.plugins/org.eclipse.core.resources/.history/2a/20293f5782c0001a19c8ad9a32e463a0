@@ -1,0 +1,5 @@
+package com.goomo.Employee.Controller;
+
+public class ClientModule {
+
+}

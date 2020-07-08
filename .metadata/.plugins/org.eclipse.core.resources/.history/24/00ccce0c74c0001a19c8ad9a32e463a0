@@ -1,0 +1,6 @@
+
+public interface Flayable {
+	
+   public void fly();
+   
+}

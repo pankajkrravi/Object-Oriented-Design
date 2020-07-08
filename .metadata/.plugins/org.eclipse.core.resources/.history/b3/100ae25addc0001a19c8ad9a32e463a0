@@ -1,0 +1,5 @@
+package com.goomo.Employee.reporting;
+
+public class EmployeeReportFormatter extends ReportFormatter{
+
+}

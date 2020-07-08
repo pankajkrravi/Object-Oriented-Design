@@ -1,0 +1,13 @@
+package com.goomo.Employee.Controller;
+
+import com.goomo.Employee.DAO.EmployeeDAO;
+import com.goomo.Employee.POJO.Employee;
+
+public class ClientModule {
+	public void hireEmployee(Employee employee) {
+      EmployeeDAO employeeDAO =new EmployeeDAO();
+      employeeDAO.saveEmployee(employee);
+      
+	}
+
+}

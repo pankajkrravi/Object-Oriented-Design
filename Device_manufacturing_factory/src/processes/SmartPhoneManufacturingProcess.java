@@ -1,0 +1,30 @@
+package processes;
+
+public class SmartPhoneManufacturingProcess extends GeneralManufacturingProcess {
+
+	public SmartPhoneManufacturingProcess(String name) {
+		super(name);
+	}
+
+	@Override
+	protected void assembleDevice() {
+		System.out.println("Assambled Smartphine .....");
+	}
+
+	@Override
+	protected void testDevice() {
+		System.out.println("tested Smartphone ...");
+	}
+
+	@Override
+	protected void packagDevice() {
+		System.out.println("Packaged Smartphone ....");
+
+	}
+
+	@Override
+	protected void storeDevice() {
+		System.out.println("Storee Smartphone ....");
+	}
+
+}

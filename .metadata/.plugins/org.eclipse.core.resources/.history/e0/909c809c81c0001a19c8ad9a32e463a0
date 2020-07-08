@@ -1,0 +1,10 @@
+package com.goomo.Employee.DAO;
+
+import java.sql.Connection;
+
+public class DatabaseConnectionManager {
+
+	private Connection connection;
+	//private static DatabaseConnectionManager connectionManager=new DatabaseConnectionManager
+		//	DatabaseConnectionManager()
+}

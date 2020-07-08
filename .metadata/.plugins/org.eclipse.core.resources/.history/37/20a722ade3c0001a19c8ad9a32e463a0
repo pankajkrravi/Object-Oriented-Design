@@ -1,0 +1,9 @@
+
+public class Doctor extends Employee {
+
+	public Doctor(int id, String name, String departnemt, boolean working) {
+		super(id, name, departnemt, working);
+		System.out.println("");
+	}
+
+}

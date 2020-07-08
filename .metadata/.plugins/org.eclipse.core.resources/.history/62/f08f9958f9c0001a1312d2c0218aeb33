@@ -1,0 +1,4 @@
+
+public class cannotteachException extends Exception {
+
+}

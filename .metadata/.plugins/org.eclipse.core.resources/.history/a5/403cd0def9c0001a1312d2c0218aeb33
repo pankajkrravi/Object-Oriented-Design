@@ -1,0 +1,14 @@
+
+public class SubstituteTeacher extends SchoolStuff {
+
+	
+	
+	
+	
+	
+	/*
+	 * @Override public void teach() { // doing nothing // throw new
+	 * cannotteachException(); }
+	 */
+
+}

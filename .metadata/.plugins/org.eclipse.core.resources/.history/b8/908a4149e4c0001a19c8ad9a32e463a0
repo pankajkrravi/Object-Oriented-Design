@@ -1,0 +1,7 @@
+
+public class HospitalManagement {
+	// Nurse
+	private void checkVitalSigns() {
+    System.out.println();
+	}
+}

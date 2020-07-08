@@ -1,0 +1,4 @@
+
+public class LaptopManufacturingProcess  extends GeneralManufacturingProcess{
+
+}

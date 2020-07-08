@@ -1,0 +1,9 @@
+
+public class Scienceteacher implements CourseInstructor{
+
+	@Override
+	public void teach() {
+		System.out.println("tauthe Science...");		
+	}
+
+}

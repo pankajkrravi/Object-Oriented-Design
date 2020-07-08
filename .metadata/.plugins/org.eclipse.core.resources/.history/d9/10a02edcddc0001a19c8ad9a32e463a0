@@ -1,0 +1,20 @@
+package com.goomo.Employee.reporting;
+
+public class ReportFormatter {
+	public ReportFormatter(Object object, FormatType formatType) {
+		switch(formatType)
+		{
+		case XML:
+			convertObjectToXML(object);
+		}
+	}
+
+	private String convertObjectToXML(Object object) {
+		return "XML : <title>" + object.toString() + "</title>";
+	}
+
+	private String convertObjectToCSV(Object object) {
+		return "CSV :,,,  " + object.toString() + " ,,,";
+	}
+
+}

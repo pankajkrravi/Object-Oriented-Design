@@ -1,0 +1,25 @@
+
+public abstract class Teacher {
+	public abstract void teach();
+
+	private void makeAnnouncement() {
+		System.out.println("made annoucement ...");
+	}
+
+	private void takeAttendance() {
+		System.out.println("took attendance ....");
+	}
+
+	private void collectPaperWork() {
+		System.out.println("collected paperwork ...");
+	}
+
+	private void conductHallwayDuties() {
+		makeAnnouncement();
+	}
+
+	public void performotherDuties() {
+
+	}
+
+}

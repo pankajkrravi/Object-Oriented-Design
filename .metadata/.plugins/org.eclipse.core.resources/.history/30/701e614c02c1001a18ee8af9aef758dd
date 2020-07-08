@@ -1,0 +1,6 @@
+
+public class RportGenerator {
+	public void generateReport() {
+		System.out.println();
+	}
+}

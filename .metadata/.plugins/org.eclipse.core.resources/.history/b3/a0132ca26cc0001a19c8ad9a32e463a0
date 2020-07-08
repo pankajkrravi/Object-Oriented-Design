@@ -1,0 +1,14 @@
+
+public class Zoo {
+     public static void main(String[] args) {
+		Animal animal1=new Animal(9, "M", 22);
+		/*
+		 * Animal animal2=new Animal(30, "M", 24); Animal animal3=new Animal(49, "F",
+		 * 27); Animal animal4=new Animal(67, "M", 24); Animal animal5=new Animal(27,
+		 * "F", 29);
+		 */
+		
+		animal1.eat();
+		
+	}
+}

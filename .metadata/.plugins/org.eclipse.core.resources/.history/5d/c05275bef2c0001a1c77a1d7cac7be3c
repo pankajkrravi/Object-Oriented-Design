@@ -1,0 +1,32 @@
+
+public class SmartPhoneManufacturingProcess extends GeneralManufacturingProcess {
+
+	public SmartPhoneManufacturingProcess(String name) {
+		super(name);
+	}
+
+	@Override
+	protected void assembleDevice() {
+		// TODO Auto-generated method stub
+       System.out.println("Assambled Smartphine .....");
+	}
+
+	@Override
+	protected void testDevice() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void packagDevice() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void storeDevice() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

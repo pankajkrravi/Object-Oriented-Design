@@ -1,0 +1,8 @@
+
+public class EmergencyRoomProcess {
+	public static void main(String[] args) {
+		HospitalManagement hospitalManagement = new HospitalManagement();
+		Employee employeepankaj = new Employee(1, "Pankaj kumar", "Emergency", true);
+		hospitalManagement.callUpon(employeepankaj);
+	}
+}

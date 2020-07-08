@@ -1,0 +1,5 @@
+package com.goomo.Employee.DAO;
+
+public class EmployeeDAO { //used for data storage and retrival
+
+}

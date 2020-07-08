@@ -1,0 +1,17 @@
+
+public class HospitalManagement {
+	// Nurse
+	private void checkVitalSigns() {
+    System.out.println();
+	}
+	
+	private void drawBlood() {
+	    System.out.println();
+		}
+	
+	private void cleanPatientArea() {
+	    System.out.println("cleaning patient area....");
+	    
+		}
+	
+}

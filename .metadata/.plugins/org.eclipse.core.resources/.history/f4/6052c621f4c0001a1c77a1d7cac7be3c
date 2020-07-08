@@ -1,0 +1,7 @@
+
+public class DeviceeFactory {
+	public static void main(String[] args) {
+		GeneralManufacturingProcess manufacturing1=new SmartPhoneManufacturingProcess("IPhone");
+	}
+
+}

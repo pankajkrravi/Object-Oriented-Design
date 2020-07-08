@@ -1,0 +1,21 @@
+
+public abstract class Employee {
+	private int id;
+	private String name;
+	private String departnemt;
+	private boolean working;
+
+	public Employee(int id, String name, String departnemt, boolean working) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.departnemt = departnemt;
+		this.working = working;
+	}
+   public abstract void performDuties(;)
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", departnemt=" + departnemt + ", working=" + working + "]";
+	}
+
+}

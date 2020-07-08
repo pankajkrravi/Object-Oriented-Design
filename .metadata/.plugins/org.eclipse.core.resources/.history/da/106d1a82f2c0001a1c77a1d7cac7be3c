@@ -1,0 +1,15 @@
+
+public abstract class GeneralManufacturingProcess {
+	String name;
+	public GeneralManufacturingProcess(String name) {
+		// TODO Auto-generated constructor stub
+	}
+	protected abstract void assembleDevice();
+
+	protected abstract void testDevice();
+
+	protected abstract void packagDevice();
+
+	protected abstract void storeDevice();
+
+}

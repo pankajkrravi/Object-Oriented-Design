@@ -1,0 +1,11 @@
+package clients;
+import GeneralManufacturingProcess;
+import SmartPhoneManufacturingProcess;
+
+public class DeviceeFactory {
+	public static void main(String[] args) {
+		GeneralManufacturingProcess manufacturing1=new SmartPhoneManufacturingProcess("IPhone");
+		manufacturing1.launchProcess();
+	}
+
+}

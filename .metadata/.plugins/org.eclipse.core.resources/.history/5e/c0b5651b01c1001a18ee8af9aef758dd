@@ -1,0 +1,8 @@
+
+public class AccountReceivable {
+  private CustomerTransaction customerTransaction;
+  public void postpayment()
+  {
+	  customerTransaction.chargeCustomer();
+  }
+}

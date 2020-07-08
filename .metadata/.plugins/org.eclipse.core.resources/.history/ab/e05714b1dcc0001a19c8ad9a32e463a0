@@ -1,0 +1,10 @@
+package com.goomo.Employee.reporting;
+
+public class ReportFormatter {
+  
+	private String convertObjectToXML(Object object)
+	{
+		return "<title>"+object.toString()+"</title>";
+	}
+	 
+}

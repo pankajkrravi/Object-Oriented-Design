@@ -1,0 +1,5 @@
+
+public class EmergencyRoomProcess {
+  HospitalManagement hospitalManagement=new HospitalManagement();
+     Employee employeepankaj=new Employee(1, "Pankaj kumar", "Emergency", true);
+}

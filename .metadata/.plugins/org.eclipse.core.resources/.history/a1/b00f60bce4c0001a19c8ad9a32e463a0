@@ -1,0 +1,29 @@
+
+public class HospitalManagement {
+	// Nurse
+	private void checkVitalSigns() {
+		System.out.println("Checking Vitals ...");
+	}
+
+	private void drawBlood() {
+		System.out.println("drawing Blood ....");
+	}
+
+	private void cleanPatientArea() {
+		System.out.println("cleaning patient area....");
+
+	}
+
+	// Doctors
+	private void prescribeMedical() {
+		System.out.println("prescribe Medical ...");
+	}
+
+	private void diagnoseis() {
+		System.out.println();
+	}
+
+	private void checkVitalSigns() {
+		System.out.println();
+	}
+}
